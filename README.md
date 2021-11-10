@@ -3,7 +3,7 @@
 
 Opencats &lt;= 0.9.4 fails to properly validade file upload, leading to remote code execution.
 
-If your version is below this, [apply the patch](https://github.com/opencats/OpenCATS/commit/b1af3bde1f68bec1c703ad66a3e390f15ed8ebe1) asap.
+If your installed version is &lt;= 0.9.4, [apply the patch](https://github.com/opencats/OpenCATS/commit/b1af3bde1f68bec1c703ad66a3e390f15ed8ebe1) asap.
 
 ## Usage
 
