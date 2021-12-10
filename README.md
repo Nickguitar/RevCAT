@@ -1,5 +1,5 @@
 # RevCAT
-## OpenCATS &lt;= 0.9.4 RCE
+## OpenCATS &lt;= 0.9.4 RCE  (CVE-2021-41560)
 
 Opencats &lt;= 0.9.4 fails to properly validade file upload, leading to remote code execution.
 
